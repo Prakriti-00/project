@@ -2,79 +2,112 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ansh and Ruby's Wedding Invitation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+
+    <title>Ansh & Ruby's Wedding Invitation</title>
     <style>
         body {
+            font-family: Arial, sans-serif;
             background-image: url(bg.png);
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-size: cover;
-            font-family: Arial, sans-serif; /* Add a font for better readability */
+            background-size: cover;   
+
+            margin: 0;
+            padding: 0;
         }
-        .container {
-            text-align: center; /* Center align the content */
-            color: #333; /* Change the text color for better contrast */
-            padding: 20px; /* Add some padding */
-            background: rgba(255, 255, 255, 0.8); /* Light background for the text */
-            border-radius: 10px; /* Rounded corners */
-            max-width: 600px; /* Max width for the container */
-            margin: auto; /* Center the container */
+
+        .invitation {
+            text-align: center;
+            margin: 50px auto;
+            padding: 20px;
         }
-        img {
-            margin: 20px 0; /* Add space around the image */
-            border-radius: 10px; /* Optional: Rounded corners for images */
+
+        .invitation h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
         }
-        form {
-            margin-top: 20px; /* Space above the form */
+
+        .invitation h2 {
+            font-size: 1.5em;
+            margin-bottom: 30px;
         }
-        input, select, textarea {
-            width: calc(100% - 20px); /* Full width inputs */
-            padding: 10px; /* Padding inside inputs */
-            margin: 10px 0; /* Margin above and below inputs */
-            border: 1px solid #ccc; /* Light border */
-            border-radius: 5px; /* Rounded corners */
+
+        .invitation img {
+            max-width: 300px;
+            margin-bottom: 30px;
         }
-        button {
-            background-color: #28a745; /* Button color */
-            color: white; /* Button text color */
-            padding: 10px; /* Padding for button */
-            border: none; /* Remove border */
-            border-radius: 5px; /* Rounded corners */
-            cursor: pointer; /* Pointer cursor */
+
+        .invitation a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
         }
-        button:hover {
-            background-color: #218838; /* Darker green on hover */
+
+        .contact-form {
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin: 50px auto;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        .contact-form h1 {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .contact-form input,
+        .contact-form select,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .contact-form button {
+            background-color: #333;
+            color:   
+ white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1><i>Ansh Sharma Weds Ruby Smith</i></h1>
-        <h2 style="line-height: 150%;">We heartfully invite you all to the Wedding. Your presence would bless the function and fill everyone with amazing memories that are to be carried for a lifetime.<br>The Sharmas and the Smiths fam and we all jam at the wedding.<br>DATE: Dec 14<br>Timings: 9 am onwards</h2>
-        <img src="invite.png" height="200" width="200" alt="Wedding Invitation"><br>
-        <p>We would love to see each moment of the function in every perspective and vision possible. Hence drop your pics down below.</p><br>
-        <a href="https://photos.google.com/u/2/album/AF1QipOEDByBDGttclNV_k8Q7u7R0vzAMXAnlbFaoiua">Share the pics</a><br>
-        <p>Love has no boundaries; it is undefined, and we would want you to be a part of it.<br>Ansh and Ruby both sympathize with things in need. Hence we request you to fill in the donation to the needy.</p><br>
-        <a href="https://www.worldvision.in">Donation</a><br>
-        <p>Find location hassle-free by clicking the link below.</p><br>
-        <a href="https://www.google.co.in/maps/place/The+Taj+Mahal+Palace,+Mumbai/@18.9215638,72.8306566,17z/data=!3m1!5s0x3be7d1c0c4d5ac1b:0xac82d2d2d765e4f5!4m13!1m2!2m1!1staj+hotel+mumbai!3m9!1s0x3be7d1c06fffffff:0xc0290485a4d73f57!5m2!4m1!1i2!8m2!3d18.9216631!4d72.8332028!15sChB0YWogaG90ZWwgbXVtYmFpIgOIAQFaEiIQdGFqIGhvdGVsIG11bWJhaZIBBWhvdGVs4AEA!16zL20vMDZieDFj?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D">Please click here for LOCATION</a><br>
-        
+    <div class="invitation">
+        <h1>Ansh Sharma Weds Ruby Smith</h1>
+        <h2>We heartfully invite you all to the Wedding. Your presence would bless the function and fill everyone with amazing memories that are to be carried for a lifetime.</h2>
+        <img src="invite.png" alt="Wedding Invitation">
+        <p>We would love to see each moment of the function in every perspective and vision possible. Hence drop your pics down below</p>
+        <a href="https://photos.google.com/u/2/album/AF1QipOEDByBDGttclNV_k8Q7u7R0vzAMXAnlbFaoiua">Share the Pics</a>
+        <p>Love has no boundaries, it is undefined and we would want you to be a part of it. Ansh and Ruby both sympathize with things in need. Hence we request you to fill in the donation to the needy.</p>
+        <a href="https://www.worldvision.in">Donate</a>
+        <p>Find location hassle by clicking the link below</p>
+        <a href="https://www.google.co.in/maps/place/The+Taj+Mahal+Palace,+Mumbai/@18.9215638,72.8306566,17z/data=!3m1!5s0x3be7d1c0c4d5ac1b:0xac82d2d2d765e4f5!4m13!1m2!2m1!1staj+hotel+mumbai!3m9!1s0x3be7d1c06fffffff:0xc0290485a4d73f57!5m2!4m1!1i2!8m2!3d18.9216631!4d72.8332028!15sChB0YWogaG90ZWwgbXVtYmFpIgOIAQFaEiIQdGFqIGhvdGVsIG11bWJhaZIBBWhvdGVs4AEA!16zL20vMDZieDFj?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D">Please click here for LOCATION</a>
+    </div>
+
+    <div class="contact-form">
         <h1>Contact Form</h1>
         <form>
-            <input type="text" name="Name" placeholder="Full Name" required><br>
-            <input type="email" name="email" placeholder="Email" required><br>
-            <select name="number of people attending" required>
-                <option value="">Select number of people attending</option>
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>   
+
+            <select name="num_guests">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
                 <option value="4">4</option>
-                <option value="5">5</option>
+                <option value="5">5</option>   
+
                 <option value="6">6</option>
                 <option value="more">More</option>
-            </select><br>
-            <textarea name="message" placeholder="Message" required></textarea><br>
+            </select>
+            <textarea name="message" placeholder="Message" required></textarea>
             <button type="submit">Send</button>
         </form>
     </div>
